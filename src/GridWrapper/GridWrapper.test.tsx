@@ -1,5 +1,5 @@
 import React from 'react';
-import { act, render } from 'react-testing-library';
+import { act, render } from '@testing-library/react';
 import 'react-testing-library/cleanup-after-each';
 import { Row } from '../CellWrapper/Row';
 import { actDrag } from '../Separators/dragTestUtils';

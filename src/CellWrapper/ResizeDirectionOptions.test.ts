@@ -1,4 +1,4 @@
-import 'react-testing-library/cleanup-after-each'
+import '@testing-library/react/pure'
 import { processOptions } from './ResizeDirectionOptions';
 
 test('Default resize direction options', () => {

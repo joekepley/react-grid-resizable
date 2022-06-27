@@ -1,6 +1,6 @@
 import React from 'react';
-import { act, render } from 'react-testing-library';
-import 'react-testing-library/cleanup-after-each';
+import { act, render } from '@testing-library/react';
+import '@testing-library/react'
 import { Cell } from './Cell';
 import { Col } from './Col';
 import { Row } from './Row';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { act, fireEvent, render } from 'react-testing-library';
-import 'react-testing-library/cleanup-after-each';
+import { act, render } from '@testing-library/react';
+import '@testing-library/react/pure';
 import { Direction } from '../hooks/useRefsWithInitialSize';
 import { Separator } from './Separator';
 import { actDrag } from './dragTestUtils';

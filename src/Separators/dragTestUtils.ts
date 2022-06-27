@@ -1,5 +1,5 @@
-import { act, fireEvent, render } from 'react-testing-library';
-import 'react-testing-library/cleanup-after-each';
+import { act, fireEvent, render } from '@testing-library/react';
+import '@testing-library/react';
 
 interface DragEventProps {
     clientX: number;
